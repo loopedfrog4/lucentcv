@@ -11,6 +11,7 @@ function App() {
       <Card/>
       <Input/>
       <Card/>
+      <Card/>
     </div>
   );
 }
