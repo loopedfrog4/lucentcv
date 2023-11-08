@@ -1,10 +1,14 @@
-
 import './App.css';
+import Card from './components/card/card';
+import axios from "axios";
+import { useEffect } from 'react';
 
 function App() {
+
   return (
     <div className="App">
-      Tesla Stock to the moon
+      <Card/>
+      
     </div>
   );
 }
